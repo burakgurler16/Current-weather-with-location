@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-// import 'package:weatherapp/icons/weather_icons.dart';
 import 'package:weatherapp/models/weather.dart';
 import 'package:weatherapp/service/location.dart';
 import 'package:weatherapp/service/service.dart';
@@ -68,7 +67,7 @@ class _CurrentPageState extends State<CurrentPage> {
                       children: [
                         const SizedBox(height: 40),
                         Text(
-                          currentData?.name ?? 'Şehir',
+                          currentData?.name ?? 'Konum',
                           style: GoogleFonts.roboto(color: day ? Colors.black : Colors.white, fontSize: 42),
                         ),
                         const SizedBox(height: 10),
