@@ -1,6 +1,6 @@
 # weatherapp
 
-A new Flutter project.
+A new Flutter project to check current weather with location
 
 ## Getting Started
 
